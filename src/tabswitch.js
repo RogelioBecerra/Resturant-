@@ -6,7 +6,7 @@ const homePage = `
 <div>
     <h3>LOGO</h3>
     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit obcaecati et vero, veritatis harum modi iure, deleniti, omnis nihil adipisci quis? Eum placeat error sed odio a pariatur quidem repudiandae!</p>
-    <img src="/src/images/drinks.jpg" alt="Image of drinks" width="400px">
+    <img src="../src/images/drinks.jpg" alt="Image of drinks" width="400px">
 </div>
 `
 
