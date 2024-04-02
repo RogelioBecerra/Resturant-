@@ -1,4 +1,4 @@
-export { setHomePage, setMenuPage, setupTabSwitch};
+export { setHomePage, setMenuPage, setupTabSwitch };
 
 const context = document.querySelector('#content');
 
@@ -34,13 +34,13 @@ function HTMLConverter(html) {
     return templete.content.firstElementChild;
 }
 
-function setHomePage(){
+function setHomePage() {
     context.textContent = '';
     const html = HTMLConverter(homePage);
     context.appendChild(html);
 }
 
-function setMenuPage(){
+function setMenuPage() {
     context.textContent = '';
     const html = HTMLConverter(menuPage);
     context.appendChild(html);
@@ -51,7 +51,7 @@ const menu = document.querySelector('#menu');
 /**
  * The function will set up the eventlisteners to reduce code in the main.js file
  */
-function setupTabSwitch(){
-    home.addEventListener('click',setHomePage);
-    menu.addEventListener('click',setMenuPage);
+function setupTabSwitch() {
+    home.addEventListener('click', setHomePage);
+    menu.addEventListener('click', setMenuPage);
 }
